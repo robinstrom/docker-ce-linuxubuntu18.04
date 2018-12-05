@@ -25,6 +25,8 @@ Check version
 
 	$ docker --version
 
+If you want to be able to skip using the sudo command, you have to create a docker group, where you will add your user.
+
 Create Docker group
 
 	$ sudo groupadd docker
